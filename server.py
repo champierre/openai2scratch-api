@@ -24,6 +24,6 @@ def ask():
         model = "text-davinci-003",
         prompt = q,
         temperature = 0,
-        max_tokens = 7
+        max_tokens = 1000
     )
     return response.choices[0].text.replace('\n', '')
